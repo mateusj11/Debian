@@ -1,2 +1,2 @@
 # Debian
-Arquivos debian
+Criado para armazenar manuais pessoais de estudo conforme for criando
