@@ -67,14 +67,14 @@ Código: <br>
 ![image](https://user-images.githubusercontent.com/52683780/150691565-cc2c14ea-14a2-4b53-be26-e56e322caac5.png)
 
 Resultado: <br>
-![image](https://user-images.githubusercontent.com/52683780/150691606-320274ea-7c79-4f76-82eb-1db0376fd593.png)
+![image](https://user-images.githubusercontent.com/52683780/150692850-99c63f38-dc51-428c-9cdd-4cd9bb6b3ecc.png)
 
 Outro exemplo um pouco mais personalizado;<br>
 Código: <br>
 ![image](https://user-images.githubusercontent.com/52683780/150692287-23e59659-edf6-40c0-a996-91720ee54af6.png)
 
 Resultado:<br>
-![image](https://user-images.githubusercontent.com/52683780/150692091-780d80b7-46df-45a2-a360-c4ec54753037.png)
+![image](https://user-images.githubusercontent.com/52683780/150692821-3ca2d41d-bd9c-4079-b58c-da5ddefd1cac.png)
 
 Para a geração do simbolo do Debian foi usado o pacote **Linux-Logo** 
 > http://www.deater.net/weave/vmwprod/linux_logo/
