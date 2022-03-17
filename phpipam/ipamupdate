@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Insira o caminho da pasta de instalação do PHPIpam
+caminho="/var/www/html/phpipam/functions/scripts/"
+
+#Realiza o Discovery de novos hosts
+if php $caminho/discoveryCheck.php 1>/dev/null
+	then echo -e " \033[1;32m Discover Check OK \033[0m"
+	else echo -e " \033[1;31m Discover Check FAIL \033[0m" 
+fi
+#Realiza a conversão de IP para Hostname
+if php $caminho/resolveIPaddresses.php 1>/dev/null
+	then echo -e " \033[1;32m Resolve IPaddresses OK \033[0m"
+	else echo -e " \033[1;31m Resolve IPaddresses FAIL  \033[0m"
+fi
+#Realiza a checagem de repostas ICMP do hosts cadastrados
+if php $caminho/pingCheck.php 1>/dev/null
+	then echo -e " \033[1;32m PING Check OK \033[0m"
+	else echo -e " \033[1;31m PING Check FAIL  \033[0m"
+fi
