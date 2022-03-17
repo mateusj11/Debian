@@ -1,2 +1,2 @@
 # Debian
-Criado para armazenar manuais pessoais de estudo conforme for criando
+Criado para armazenar manuais e scripts pessoais de estudo conforme for criando
